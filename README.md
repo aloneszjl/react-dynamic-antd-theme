@@ -4,13 +4,13 @@ configure antd theme dynamically in create-react-app 2.0 use [customize-cra](htt
 
 fork from [react-app-rewire-antd-theme](https://github.com/mzohaibqc/react-app-rewire-antd-theme)
 
-#install
+# install
 
 ```
 npm install --save-dev react-dynamic-antd-theme
 ```
 
-#usage
+# usage
 
 just add a file `config-overrides.js` in root directory
 and add following code in it. You either need to provide `variables` less file or variables object.
