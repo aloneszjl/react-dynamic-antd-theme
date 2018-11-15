@@ -1,0 +1,27 @@
+{
+  "name": "react-dynamic-antd-theme",
+  "version": "1.0.1",
+  "description": "configure antd theme dynamically in create-react-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aloneszjl/react-dynamic-antd-theme.git"
+  },
+  "dependencies": {
+    "antd-theme-generator": "1.1.4",
+    "less-bundle-promise": "1.0.7",
+    "postcss": "^6.0.21",
+    "react-app-rewire-less": "^2.1.1",
+    "react-app-rewired": "^1.5.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aloneszjl/react-dynamic-antd-theme/issues"
+  },
+  "homepage": "https://github.com/aloneszjl/react-dynamic-antd-theme#readme"
+}
