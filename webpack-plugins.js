@@ -40,10 +40,7 @@ class AntDesignThemePlugin {
       ) {
         const index = compilation.assets[options.indexFileName];
         let content = index.source();
-        const replaceContent =
-          process.env.NODE_ENV === "production"
-            ? `${less}<body>`
-            : `<body>${less}`;
+        const replaceContent = `<body>${less}`;
         if (!content.match(/\/color\.less/g)) {
           index.source = () =>
             content.replace(less, "").replace(/<body>/gi, replaceContent);
